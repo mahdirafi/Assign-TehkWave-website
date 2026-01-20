@@ -16,6 +16,9 @@ html{
 .white{
     color: var(--text-color);
 }
+.white2{
+    color: rgba(255, 255, 255, 0.555);
+}
 .gray{
     color: rgba(128, 128, 128, 0.63);
 }
@@ -23,6 +26,11 @@ html{
      max-width: 1200px;
      margin: 0 auto;
     border: .2px solid rgba(128, 128, 128, 0.274);
+}
+.hr{
+     max-width: 1600px;
+     margin: 0 auto;
+    border: .1px solid rgba(128, 128, 128, 0.082);
 }
 li{
     list-style: none;
@@ -171,7 +179,6 @@ p{
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
-    color: rgb(255, 255, 255);
     margin-top: 10px;
 } 
 .podcast-text .pod-p2{
@@ -197,7 +204,7 @@ p{
 .coun .coun-1 p{
  font-size: 16px;
  line-height: 20px;
- color: #ffffff;
+ color: rgba(255, 255, 255,0.555);
 }
 
 .techwave{
@@ -215,8 +222,6 @@ p{
     background-color: rgba(42, 15, 77, 0.712);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4), 0 0 15px rgba(123, 44, 191, 0.2);
 }
-
-
 .all-box{
  padding: 30px 40px;
  border-radius: 40px;
@@ -297,7 +302,7 @@ iframe{
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    color: white;
+    color: rgba(255, 255, 255, 0.555);
 }
 #video-1-text h5{
     color: #00FF88;
@@ -329,7 +334,7 @@ iframe{
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  color: white;
+  color: rgba(255, 255, 255, 0.555);
   margin: 16px 0;
 }
 .icon-box img{
